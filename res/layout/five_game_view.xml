@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="#99CC99">
+   
+       <HorizontalScrollView  android:layout_width="match_parent"
+                              android:layout_height="match_parent"
+                              android:layout_weight="1"
+                              android:scrollbars="none"
+                              android:orientation="vertical"
+           >
+        
+	       
+		
+			<LinearLayout android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_margin="10dp"
+			    android:layout_gravity="center_vertical"
+			    android:orientation="horizontal"
+			    >
+			    <com.liuyao.gobang.widget.Chessboard android:id="@+id/snake" android:layout_width="900px"
+			                        android:layout_height="300px" 
+			                        android:background="#ACAF9F"
+			                        tileSize="24"/>
+						    <View android:layout_width="30px"
+						        android:layout_height="30px"
+						      
+						        />
+		</LinearLayout>
+   
+	</HorizontalScrollView>
+	<LinearLayout android:layout_height="50dp"
+	              android:layout_width="match_parent"
+	              android:background="#999999"
+	              android:orientation="horizontal"
+	    >
+	    <LinearLayout android:layout_width="match_parent"
+	                  android:layout_height="match_parent"
+	                  android:orientation="vertical"
+	                  android:layout_weight="1"
+	                  android:gravity="center"
+	        > 
+				<Button android:layout_height="30dp"
+				        android:layout_width="30dp"
+				        android:background="@drawable/newgame"
+				        android:id="@+id/newgame"
+				    >
+				</Button>	
+				<TextView android:layout_width="wrap_content"
+				          android:layout_height="wrap_content"
+				          android:clickable="true"
+				          android:id="@+id/text_newgame"
+				          android:textSize="10sp"
+				          android:text="新局"
+				          android:textColor="@color/black"
+				    >
+				</TextView>	    
+	    </LinearLayout>
+	    <LinearLayout android:layout_width="match_parent"
+	                  android:layout_height="match_parent"
+	                  android:orientation="vertical"
+	                  android:layout_weight="1"
+	                  android:gravity="center"
+	                  
+	        >
+				<Button android:layout_height="30dp"
+				        android:layout_width="30dp"
+				        android:background="@drawable/retract"
+				        android:id="@+id/huiqi"
+				    >
+				</Button>
+				<TextView android:layout_width="wrap_content"
+				          android:layout_height="wrap_content"
+				          android:id="@+id/text_huiqi"
+				          android:clickable="true"
+				          android:textSize="10sp"
+				          android:text="悔棋"
+				          android:textColor="@color/black"
+				    >
+				</TextView>		
+	    </LinearLayout>
+	    
+	    <LinearLayout android:layout_width="match_parent"
+	                  android:layout_height="match_parent"
+	                  android:orientation="vertical"
+	                  android:layout_weight="1"
+	                  android:gravity="center"
+	                  
+	        >
+				<Button android:layout_height="30dp"
+				        android:layout_width="30dp"
+				        android:background="@drawable/draw"
+				        android:id="@+id/xuhao"
+				    >
+				</Button>
+				<TextView android:layout_width="wrap_content"
+				          android:layout_height="wrap_content"
+				          android:id="@+id/text_xuhao"
+				          android:clickable="true"
+				          android:textSize="10sp"
+				          android:text="序号"
+				          android:textColor="@color/black"
+				    >
+				</TextView>		
+	    </LinearLayout>
+	    
+	    
+	</LinearLayout>
+	
+
+</LinearLayout>

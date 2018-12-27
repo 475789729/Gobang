@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="xianshou">
+        <item>电脑执黑</item>
+        <item>电脑执白</item>
+    </string-array>
+    <string-array name="jinshou">
+        <item>无</item>
+        <item>有</item>
+    </string-array>
+    <string-array name="qi">
+        <item>稳健</item>
+        <item>阴险</item>
+        <item>中庸</item>
+        <item>毒辣</item>
+        <item>怪诞</item>
+        <item>正宗</item>
+        <item>食肉者</item>       
+    </string-array>
+</resources>

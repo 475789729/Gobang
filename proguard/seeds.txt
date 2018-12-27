@@ -1,0 +1,334 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentActivity
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost
+android.support.v4.app.FragmentTabHost: FragmentTabHost(android.content.Context)
+android.support.v4.app.FragmentTabHost: FragmentTabHost(android.content.Context,android.util.AttributeSet)
+android.support.v4.app.FragmentTabHost: void setup()
+android.support.v4.app.FragmentTabHost: void setup(android.content.Context,android.support.v4.app.FragmentManager)
+android.support.v4.app.FragmentTabHost: void setup(android.content.Context,android.support.v4.app.FragmentManager,int)
+android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.NotificationCompatSideChannelService
+android.support.v4.content.FileProvider
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.content.WakefulBroadcastReceiver
+android.support.v4.media.MediaMetadataCompat
+android.support.v4.media.MediaMetadataCompat: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.RatingCompat
+android.support.v4.media.RatingCompat: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.session.MediaSessionCompat$Token
+android.support.v4.media.session.MediaSessionCompat$Token: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.session.PlaybackStateCompat
+android.support.v4.media.session.PlaybackStateCompat: android.os.Parcelable$Creator CREATOR
+android.support.v4.view.PagerTabStrip
+android.support.v4.view.PagerTabStrip: PagerTabStrip(android.content.Context)
+android.support.v4.view.PagerTabStrip: PagerTabStrip(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setPadding(int,int,int,int)
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: PagerTitleStrip(android.content.Context)
+android.support.v4.view.PagerTitleStrip: PagerTitleStrip(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setTextSize(int,float)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager
+android.support.v4.view.ViewPager: ViewPager(android.content.Context)
+android.support.v4.view.ViewPager: ViewPager(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: int getClientWidth()
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: void setCurrentItem(int,boolean)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: void setPageTransformer(boolean,android.support.v4.view.ViewPager$PageTransformer)
+android.support.v4.view.ViewPager: void setChildrenDrawingOrderEnabledCompat(boolean)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$LayoutParams
+android.support.v4.view.ViewPager$LayoutParams: ViewPager$LayoutParams(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.ContentLoadingProgressBar
+android.support.v4.widget.ContentLoadingProgressBar: ContentLoadingProgressBar(android.content.Context)
+android.support.v4.widget.ContentLoadingProgressBar: ContentLoadingProgressBar(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.DrawerLayout
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context)
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context,android.util.AttributeSet,int)
+android.support.v4.widget.DrawerLayout: void setChildInsets(java.lang.Object,boolean)
+android.support.v4.widget.DrawerLayout: void setDrawerShadow(android.graphics.drawable.Drawable,int)
+android.support.v4.widget.DrawerLayout: void setDrawerShadow(int,int)
+android.support.v4.widget.DrawerLayout: void setScrimColor(int)
+android.support.v4.widget.DrawerLayout: void setDrawerListener(android.support.v4.widget.DrawerLayout$DrawerListener)
+android.support.v4.widget.DrawerLayout: void setDrawerLockMode(int)
+android.support.v4.widget.DrawerLayout: void setDrawerLockMode(int,int)
+android.support.v4.widget.DrawerLayout: void setDrawerLockMode(int,android.view.View)
+android.support.v4.widget.DrawerLayout: void setDrawerTitle(int,java.lang.CharSequence)
+android.support.v4.widget.DrawerLayout: void setStatusBarBackground(android.graphics.drawable.Drawable)
+android.support.v4.widget.DrawerLayout: void setStatusBarBackground(int)
+android.support.v4.widget.DrawerLayout: void setStatusBarBackgroundColor(int)
+android.support.v4.widget.DrawerLayout$LayoutParams
+android.support.v4.widget.DrawerLayout$LayoutParams: DrawerLayout$LayoutParams(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.DrawerLayout$SavedState
+android.support.v4.widget.DrawerLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SearchViewCompatIcs$MySearchView
+android.support.v4.widget.SearchViewCompatIcs$MySearchView: SearchViewCompatIcs$MySearchView(android.content.Context)
+android.support.v4.widget.SlidingPaneLayout
+android.support.v4.widget.SlidingPaneLayout: SlidingPaneLayout(android.content.Context)
+android.support.v4.widget.SlidingPaneLayout: SlidingPaneLayout(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.SlidingPaneLayout: SlidingPaneLayout(android.content.Context,android.util.AttributeSet,int)
+android.support.v4.widget.SlidingPaneLayout: void setParallaxDistance(int)
+android.support.v4.widget.SlidingPaneLayout: int getParallaxDistance()
+android.support.v4.widget.SlidingPaneLayout: void setSliderFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getSliderFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setCoveredFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getCoveredFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setPanelSlideListener(android.support.v4.widget.SlidingPaneLayout$PanelSlideListener)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawable(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawableLeft(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawableRight(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResource(int)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResourceLeft(int)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResourceRight(int)
+android.support.v4.widget.SlidingPaneLayout$LayoutParams
+android.support.v4.widget.SlidingPaneLayout$LayoutParams: SlidingPaneLayout$LayoutParams(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.SlidingPaneLayout$SavedState
+android.support.v4.widget.SlidingPaneLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SwipeRefreshLayout
+android.support.v4.widget.SwipeRefreshLayout: void setColorViewAlpha(int)
+android.support.v4.widget.SwipeRefreshLayout: void setProgressViewOffset(boolean,int,int)
+android.support.v4.widget.SwipeRefreshLayout: void setProgressViewEndTarget(boolean,int)
+android.support.v4.widget.SwipeRefreshLayout: void setSize(int)
+android.support.v4.widget.SwipeRefreshLayout: SwipeRefreshLayout(android.content.Context)
+android.support.v4.widget.SwipeRefreshLayout: SwipeRefreshLayout(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.SwipeRefreshLayout: void setOnRefreshListener(android.support.v4.widget.SwipeRefreshLayout$OnRefreshListener)
+android.support.v4.widget.SwipeRefreshLayout: void setRefreshing(boolean)
+android.support.v4.widget.SwipeRefreshLayout: void setAnimationProgress(float)
+android.support.v4.widget.SwipeRefreshLayout: void setProgressBackgroundColor(int)
+android.support.v4.widget.SwipeRefreshLayout: void setColorScheme(int[])
+android.support.v4.widget.SwipeRefreshLayout: void setColorSchemeResources(int[])
+android.support.v4.widget.SwipeRefreshLayout: void setColorSchemeColors(int[])
+android.support.v4.widget.SwipeRefreshLayout: void setDistanceToTriggerSync(int)
+com.liuyao.gobang.ui.MainActivity
+com.liuyao.gobang.ui.MainActivity: MainActivity()
+com.liuyao.gobang.ui.R$array: int jinshou
+com.liuyao.gobang.ui.R$array: int qi
+com.liuyao.gobang.ui.R$array: int xianshou
+com.liuyao.gobang.ui.R$color: int aliceblue
+com.liuyao.gobang.ui.R$color: int antiquewhite
+com.liuyao.gobang.ui.R$color: int aqua
+com.liuyao.gobang.ui.R$color: int aquamarine
+com.liuyao.gobang.ui.R$color: int azure
+com.liuyao.gobang.ui.R$color: int background
+com.liuyao.gobang.ui.R$color: int bar_corner
+com.liuyao.gobang.ui.R$color: int beige
+com.liuyao.gobang.ui.R$color: int bisque
+com.liuyao.gobang.ui.R$color: int black
+com.liuyao.gobang.ui.R$color: int blanchedalmond
+com.liuyao.gobang.ui.R$color: int blue
+com.liuyao.gobang.ui.R$color: int blueviolet
+com.liuyao.gobang.ui.R$color: int bottom_bar_background
+com.liuyao.gobang.ui.R$color: int brown
+com.liuyao.gobang.ui.R$color: int burlywood
+com.liuyao.gobang.ui.R$color: int businfo
+com.liuyao.gobang.ui.R$color: int button_textview_selected_color
+com.liuyao.gobang.ui.R$color: int button_textview_selected_color_clicked
+com.liuyao.gobang.ui.R$color: int button_textview_unselected_color
+com.liuyao.gobang.ui.R$color: int cadetblue
+com.liuyao.gobang.ui.R$color: int card_bold_gray
+com.liuyao.gobang.ui.R$color: int chartreuse
+com.liuyao.gobang.ui.R$color: int chocolate
+com.liuyao.gobang.ui.R$color: int coral
+com.liuyao.gobang.ui.R$color: int cornflowerblue
+com.liuyao.gobang.ui.R$color: int cornsilk
+com.liuyao.gobang.ui.R$color: int crimson
+com.liuyao.gobang.ui.R$color: int cyan
+com.liuyao.gobang.ui.R$color: int darkblue
+com.liuyao.gobang.ui.R$color: int darkcyan
+com.liuyao.gobang.ui.R$color: int darkgoldenrod
+com.liuyao.gobang.ui.R$color: int darkgray
+com.liuyao.gobang.ui.R$color: int darkgreen
+com.liuyao.gobang.ui.R$color: int darkgrey
+com.liuyao.gobang.ui.R$color: int darkkhaki
+com.liuyao.gobang.ui.R$color: int darkmagenta
+com.liuyao.gobang.ui.R$color: int darkolivegreen
+com.liuyao.gobang.ui.R$color: int darkorange
+com.liuyao.gobang.ui.R$color: int darkorchid
+com.liuyao.gobang.ui.R$color: int darkred
+com.liuyao.gobang.ui.R$color: int darksalmon
+com.liuyao.gobang.ui.R$color: int darkseagreen
+com.liuyao.gobang.ui.R$color: int darkslateblue
+com.liuyao.gobang.ui.R$color: int darkslategray
+com.liuyao.gobang.ui.R$color: int darkslategrey
+com.liuyao.gobang.ui.R$color: int darkturquoise
+com.liuyao.gobang.ui.R$color: int darkviolet
+com.liuyao.gobang.ui.R$color: int deeppink
+com.liuyao.gobang.ui.R$color: int deepskyblue
+com.liuyao.gobang.ui.R$color: int dimgray
+com.liuyao.gobang.ui.R$color: int dimgrey
+com.liuyao.gobang.ui.R$color: int dodgerblue
+com.liuyao.gobang.ui.R$color: int firebrick
+com.liuyao.gobang.ui.R$color: int floralwhite
+com.liuyao.gobang.ui.R$color: int forestgreen
+com.liuyao.gobang.ui.R$color: int fuchsia
+com.liuyao.gobang.ui.R$color: int gainsboro
+com.liuyao.gobang.ui.R$color: int ghostwhite
+com.liuyao.gobang.ui.R$color: int gold
+com.liuyao.gobang.ui.R$color: int goldenrod
+com.liuyao.gobang.ui.R$color: int gray
+com.liuyao.gobang.ui.R$color: int green
+com.liuyao.gobang.ui.R$color: int greenyellow
+com.liuyao.gobang.ui.R$color: int grey
+com.liuyao.gobang.ui.R$color: int honeydew
+com.liuyao.gobang.ui.R$color: int hotpink
+com.liuyao.gobang.ui.R$color: int ilife_gray
+com.liuyao.gobang.ui.R$color: int indianred
+com.liuyao.gobang.ui.R$color: int indigo
+com.liuyao.gobang.ui.R$color: int ivory
+com.liuyao.gobang.ui.R$color: int khaki
+com.liuyao.gobang.ui.R$color: int lavender
+com.liuyao.gobang.ui.R$color: int lavenderblush
+com.liuyao.gobang.ui.R$color: int lawngreen
+com.liuyao.gobang.ui.R$color: int lemonchiffon
+com.liuyao.gobang.ui.R$color: int lightblue
+com.liuyao.gobang.ui.R$color: int lightcoral
+com.liuyao.gobang.ui.R$color: int lightcyan
+com.liuyao.gobang.ui.R$color: int lightgoldenrodyellow
+com.liuyao.gobang.ui.R$color: int lightgray
+com.liuyao.gobang.ui.R$color: int lightgreen
+com.liuyao.gobang.ui.R$color: int lightgrey
+com.liuyao.gobang.ui.R$color: int lightpink
+com.liuyao.gobang.ui.R$color: int lightsalmon
+com.liuyao.gobang.ui.R$color: int lightseagreen
+com.liuyao.gobang.ui.R$color: int lightskyblue
+com.liuyao.gobang.ui.R$color: int lightslategray
+com.liuyao.gobang.ui.R$color: int lightslategrey
+com.liuyao.gobang.ui.R$color: int lightsteelblue
+com.liuyao.gobang.ui.R$color: int lightyellow
+com.liuyao.gobang.ui.R$color: int lime
+com.liuyao.gobang.ui.R$color: int limegreen
+com.liuyao.gobang.ui.R$color: int linen
+com.liuyao.gobang.ui.R$color: int magenta
+com.liuyao.gobang.ui.R$color: int maroon
+com.liuyao.gobang.ui.R$color: int mediumaquamarine
+com.liuyao.gobang.ui.R$color: int mediumblue
+com.liuyao.gobang.ui.R$color: int mediumorchid
+com.liuyao.gobang.ui.R$color: int mediumpurple
+com.liuyao.gobang.ui.R$color: int mediumseagreen
+com.liuyao.gobang.ui.R$color: int mediumslateblue
+com.liuyao.gobang.ui.R$color: int mediumspringgreen
+com.liuyao.gobang.ui.R$color: int mediumturquoise
+com.liuyao.gobang.ui.R$color: int mediumvioletred
+com.liuyao.gobang.ui.R$color: int midnightblue
+com.liuyao.gobang.ui.R$color: int mintcream
+com.liuyao.gobang.ui.R$color: int mistyrose
+com.liuyao.gobang.ui.R$color: int moccasin
+com.liuyao.gobang.ui.R$color: int navajowhite
+com.liuyao.gobang.ui.R$color: int navy
+com.liuyao.gobang.ui.R$color: int oldlace
+com.liuyao.gobang.ui.R$color: int olive
+com.liuyao.gobang.ui.R$color: int olivedrab
+com.liuyao.gobang.ui.R$color: int orange
+com.liuyao.gobang.ui.R$color: int orangered
+com.liuyao.gobang.ui.R$color: int orchid
+com.liuyao.gobang.ui.R$color: int palegoldenrod
+com.liuyao.gobang.ui.R$color: int palegreen
+com.liuyao.gobang.ui.R$color: int paleturquoise
+com.liuyao.gobang.ui.R$color: int palevioletred
+com.liuyao.gobang.ui.R$color: int papayawhip
+com.liuyao.gobang.ui.R$color: int peachpuff
+com.liuyao.gobang.ui.R$color: int peru
+com.liuyao.gobang.ui.R$color: int pink
+com.liuyao.gobang.ui.R$color: int plum
+com.liuyao.gobang.ui.R$color: int powderblue
+com.liuyao.gobang.ui.R$color: int purple
+com.liuyao.gobang.ui.R$color: int red
+com.liuyao.gobang.ui.R$color: int rosybrown
+com.liuyao.gobang.ui.R$color: int royalblue
+com.liuyao.gobang.ui.R$color: int saddlebrown
+com.liuyao.gobang.ui.R$color: int salmon
+com.liuyao.gobang.ui.R$color: int sandybrown
+com.liuyao.gobang.ui.R$color: int seagreen
+com.liuyao.gobang.ui.R$color: int seashell
+com.liuyao.gobang.ui.R$color: int sienna
+com.liuyao.gobang.ui.R$color: int silver
+com.liuyao.gobang.ui.R$color: int skyblue
+com.liuyao.gobang.ui.R$color: int slateblue
+com.liuyao.gobang.ui.R$color: int slategray
+com.liuyao.gobang.ui.R$color: int slategrey
+com.liuyao.gobang.ui.R$color: int snow
+com.liuyao.gobang.ui.R$color: int sodarkgray
+com.liuyao.gobang.ui.R$color: int solightgrey
+com.liuyao.gobang.ui.R$color: int springgreen
+com.liuyao.gobang.ui.R$color: int steelblue
+com.liuyao.gobang.ui.R$color: int tan
+com.liuyao.gobang.ui.R$color: int teal
+com.liuyao.gobang.ui.R$color: int thistle
+com.liuyao.gobang.ui.R$color: int tomato
+com.liuyao.gobang.ui.R$color: int topbar
+com.liuyao.gobang.ui.R$color: int turquoise
+com.liuyao.gobang.ui.R$color: int violet
+com.liuyao.gobang.ui.R$color: int wheat
+com.liuyao.gobang.ui.R$color: int white
+com.liuyao.gobang.ui.R$color: int whitesmoke
+com.liuyao.gobang.ui.R$color: int yellow
+com.liuyao.gobang.ui.R$drawable: int bg
+com.liuyao.gobang.ui.R$drawable: int black
+com.liuyao.gobang.ui.R$drawable: int draw
+com.liuyao.gobang.ui.R$drawable: int ic_launcher
+com.liuyao.gobang.ui.R$drawable: int logo
+com.liuyao.gobang.ui.R$drawable: int newgame
+com.liuyao.gobang.ui.R$drawable: int retract
+com.liuyao.gobang.ui.R$drawable: int retry
+com.liuyao.gobang.ui.R$drawable: int white
+com.liuyao.gobang.ui.R$id: int huiqi
+com.liuyao.gobang.ui.R$id: int jinshou_spinner
+com.liuyao.gobang.ui.R$id: int newgame
+com.liuyao.gobang.ui.R$id: int qi_spinner
+com.liuyao.gobang.ui.R$id: int snake
+com.liuyao.gobang.ui.R$id: int text_huiqi
+com.liuyao.gobang.ui.R$id: int text_newgame
+com.liuyao.gobang.ui.R$id: int text_xuhao
+com.liuyao.gobang.ui.R$id: int xianshou_spinner
+com.liuyao.gobang.ui.R$id: int xuhao
+com.liuyao.gobang.ui.R$layout: int five_game_view
+com.liuyao.gobang.ui.R$layout: int set_layout
+com.liuyao.gobang.ui.R$raw: int click
+com.liuyao.gobang.ui.R$raw: int loss
+com.liuyao.gobang.ui.R$string: int app_name
+com.liuyao.gobang.widget.Chessboard
+com.liuyao.gobang.widget.Chessboard: Chessboard(android.content.Context,android.util.AttributeSet)
+com.liuyao.gobang.widget.Chessboard: net.liuyao.core.Gobang getGame()
+com.liuyao.gobang.widget.Chessboard: void setGame(net.liuyao.core.Gobang)
+com.liuyao.gobang.widget.Chessboard: void setXuhao(boolean)

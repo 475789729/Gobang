@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout android:layout_height="wrap_content"
+                  android:layout_width="wrap_content"
+                  android:layout_margin="7dp"
+                  android:orientation="horizontal"
+        >
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/white"
+                  android:textSize="18sp"
+                  android:text="先手设置:"
+            >
+       </TextView>
+        <Spinner android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/xianshou_spinner"
+                 android:entries="@array/xianshou"
+            >
+            
+        </Spinner>
+   </LinearLayout>  
+    <LinearLayout android:layout_height="wrap_content"
+                  android:layout_width="wrap_content"
+                  android:layout_margin="7dp"
+                  android:orientation="horizontal"
+        >
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/white"
+                  android:textSize="18sp"
+                  android:text="禁手设置:"
+            >
+       </TextView>
+        <Spinner android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/jinshou_spinner"
+                 android:entries="@array/jinshou"
+            >
+            
+        </Spinner>
+   </LinearLayout> 
+   <LinearLayout android:layout_height="wrap_content"
+                  android:layout_width="wrap_content"
+                  android:layout_margin="7dp"
+                  android:orientation="horizontal"
+        >
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/white"
+                  android:textSize="18sp"
+                  android:text="电脑风格:"
+            >
+       </TextView>
+        <Spinner android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/qi_spinner"
+                 android:entries="@array/qi"
+            >
+            
+        </Spinner>
+   </LinearLayout>     
+        
+
+</LinearLayout>

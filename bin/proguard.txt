@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:17
+-keep class com.liuyao.gobang.ui.MainActivity { <init>(...); }
+
+# view res/layout/five_game_view.xml #generated:23
+-keep class com.liuyao.gobang.widget.Chessboard { <init>(...); }
+
